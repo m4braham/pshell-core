@@ -8,5 +8,5 @@ for ($i = 0; $i -lt $minutes; $i++) {
   Write-Output "Sleeping for 60 seconds... zzZ"
   Start-Sleep -Seconds 60
   Write-Output "Zzz Caffein booster"
-  $myshell.sendkeys(".")
+  $myshell.sendkeys("{NUMLOCK}")
 }
